@@ -1,3 +1,5 @@
+data "aws_region" "new" {}
+
 data "aws_region" "current" {}
 
 data "aws_canonical_user_id" "this" {
