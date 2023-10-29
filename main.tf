@@ -1,4 +1,4 @@
-data "aws_region" "new" {}
+data "aws_region" "test" {}
 
 data "aws_region" "current" {}
 
